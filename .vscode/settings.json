@@ -1,0 +1,18 @@
+{
+	"files.associations": {
+		"*.pog": "pogscript",
+		"*.pyx": "python",
+		"*.uts": "javascript",
+		"*.pydict": "python",
+		"*.pg": "html",
+		"*.pgx": "xml",
+		"*.cb": "csharp",
+		"Todo": "markdown",
+		"ulr": "cpp",
+		"stdulr": "cpp",
+		"*.rts": "python",
+		"*.ctr": "csharp",
+		"mutex": "cpp",
+		"algorithm": "cpp"
+	}
+}

@@ -1,0 +1,8 @@
+public class []Adder
+	public static [System]Int32 Add([System]Int32,[System]Int32)
+		ldapl 0
+		ldapl 1
+		add i32
+		ret
+	end
+end
