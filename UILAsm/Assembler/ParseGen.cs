@@ -224,7 +224,7 @@ public static class ParseGen // TODO: refactor into instantiable class (then we 
 				case "cstnv":
 					if (EnsureIndexExists(parts, 1, "Expected two numerical type identifiers after 'cstnv'"))
 					{
-						if (EnsureIndexExists(parts, 1, "Expected two numerical type identifiers after 'cstnv'"))
+						if (EnsureIndexExists(parts, 2, "Expected two numerical type identifiers after 'cstnv'"))
 						{
 							il.Add((byte) OpCodes.CstNV);
 							il.Add((byte) Enum.Parse<NumericalTypeIdentifiers>(parts[1]));
